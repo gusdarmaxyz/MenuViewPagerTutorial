@@ -1,0 +1,323 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#a8cf45" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textview_B5CR13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B5CR13"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_B5CR13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+
+                <RadioButton
+                    android:id="@+id/radiobutton_B5CR13_Tidak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B5CR13_Tidak"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic" 
+                    android:layout_marginLeft="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/radiobutton_B5CR13_Masih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B5CR13_Masih"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_B5CR13_TidakBersekolah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B5CR13_TidakBersekolah"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <TextView
+                android:id="@+id/textview_B5CR14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B5CR14"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textview_B5CR14_Keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/B5CR14_Keterangan"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+
+                <TextView
+                    android:id="@+id/textview_B5CR14_Bulan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B5CR14_Bulan"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" 
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edittext_B5CR14_Bulan"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                   	android:layout_alignBaseline="@id/textview_B5CR14_Bulan"
+                   	android:layout_marginLeft="10dp"
+                    android:background="#93bc2b"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentRight="true" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textview_B5CR14_Tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textview_B5CR14_Bulan"
+                    android:paddingTop="10dp"
+                    android:text="@string/B5CR14_Tahun"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="30dp" />
+
+                <EditText
+                    android:id="@+id/edittext_B5CR14_Tahun"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#93bc2b"
+                    android:inputType="number"
+                    android:layout_alignBaseline="@id/textview_B5CR14_Tahun"
+                    android:maxLength="4"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" >
+                </EditText>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textview_B5CR15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B5CR15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner 
+                android:id="@+id/spinner_B5CR15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#93bc2b"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+            
+            <TextView
+            	android:id="@+id/textview_B5CR16"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textAppearance="?android:attr/textAppearanceMedium"
+            	android:textColor="#ffffff"
+            	android:padding="10dp"
+            	android:text="@string/B5CR16" />
+
+            <Spinner 
+                android:id="@+id/spinner_B5CR16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#93bc2b"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textview_B5CR17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B5CR17"
+                android:textColor="#ffffff" 
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner 
+                android:id="@+id/spinner_B5CR17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#93bc2b"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textview_B5CR18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/B5CR18" 
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#ffffff"/>
+
+            <Spinner 
+                android:id="@+id/spinner_B5CR18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#93bc2b"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_SaveBlok5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:background="@drawable/thome_2"
+                android:padding="10dp"
+                android:text="@string/button_Save"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.68"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_CancelBlok5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:background="@drawable/thome_1"
+                android:padding="10dp"
+                android:text="@string/button_Cancel"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

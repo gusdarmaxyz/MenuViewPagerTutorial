@@ -1,0 +1,120 @@
+<resources>
+
+   
+    <string name="menu_settings">Settings</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <!-- Daftar Pertanyaan -->
+    	<!-- Blok 1 -->
+    	<string name="B1R1">1. Provinsi :</string>
+    	<string name="B1R2">2. Kabupaten/ Kota :</string>
+    	<string name="B1R3">3. Kecamatan :</string>
+    	<string name="B1R4">4. Desa/ Kelurahan :</string>
+    	<string name="B1R5">5. Klasifikasi desa/ kelurahan :</string>
+    	<string name="B1R6_NoSB">6. a. Nomor blok sensus :</string>
+    	<string name="B1R6_NoSBS">b. Nomor sub blok sensus :</string>
+    	<string name="B1R7">7. Nomor kode sampel :</string>
+    	<string name="B1R8">8. Nomor urut rumah tangga sampel :</string>
+    	<string name="B1R9">9. Apakah rumah tangga ini termasuk sampel SUSENAS 2005?</string>
+    	<string name="B1R10">10. Alamat :</string>
+    	<string name="B1R10_Jalan">Jalan/ Gang :</string>
+    	<string name="B1R10_RT">RT :</string>
+    	<string name="B1R10_RW">RW :</string>
+    	<string name="B1R10_Dusun">Dusun :</string>
+    	
+    	<!-- Blok 2 -->
+    	<string name="B2R1">1. Nama kepala rumah tangga :</string>
+    	<string name="B2R2">2. Jumlah anggota rumah tangga :</string>
+    	<string name="B2R2_0Tahun">0&#8211;4 tahun :</string>
+    	<string name="B2R2_5Tahun">5&#8211;9 tahun :</string>
+    	<string name="B2R2_10Tahun">10+ tahun :</string>
+    	<string name="B2R2_Jumlah">Jumlah :</string>
+    	
+    	<!-- Blok 3 -->
+    	<string name="B3R1">1. Kode pencacah :</string>
+    	<string name="B3R2_Nama">2. Nama pencacah :</string>
+    	<string name="B3R3_Nama">3. Nama koordinator :</string>
+    	
+    	<!-- Blok 5B -->
+    	<string name="B5BR9_Bulan">9. a. Umur dalam bulan :</string>
+    	<string name="B5BR9_Hari">b. Umur dalam hari :</string>
+    	<string name="B5BR10">10. Siapa yang menolong proses kelahiran?</string>
+    	<string name="B5BR10_Pertama">a. Anak pertama</string>
+    	<string name="B5BR10_Terakhir">b. Anak terakhir</string>
+    	<string name="B5BR11">11. Berapa kali sudah mendapat imunisasi?</string>
+    	<string name="B5BR11_Keterangan">[Isikan frekuensi imunisasi untuk setiap jenis imunisasi]</string>
+    	<string name="B5BR12_ASI">12. a. Apakah pernah diberi Air Susu Ibu(ASI)?</string>
+    	<string name="B5BR12_Lama">b. Lama pemberian ASI :</string>
+    	<string name="B5BR12_Lama_Keterangan">[Isikan dalam hari bila umur kurang dari 1 bulan dan dalam bulan bila umur lebih dari sama dengan 1 bulan]</string>
+    	<string name="B5BR12_Lama_a">1. Lama pemberian ASI :</string>
+    	<string name="B5BR12_Lama_b">2. ASI saja :</string>
+    	<string name="B5BR12_Lama_c">3. ASI dengan makanan pendamping :</string>
+    	
+    	<!-- Blok 5C -->
+    	<string name="B5CR13">13. Partisipasi bersekolah :</string>
+    	<string name="B5CR14">14. Kapan berhenti sekolah?</string>
+    	<string name="B5CR14_Keterangan">[isikan \&apos;00 dan 0000\&apos; bila berhenti sebelum tahun 1997]</string>
+    	<string name="B5CR14_Bulan">Bulan :</string>
+    	<string name="B5CR14_Tahun">Tahun :</string>
+    	<string name="B5CR15">15. Jenjang atau jenis pendidikan tertinggi yang pernah/ sedang diduduki :</string>
+    	<string name="B5CR16">16. Tingkat/kelas tertinggi yang pernah/sedang diduduki :</string>
+    	<string name="B5CR17">17. Ijazah/STTB tertinggi yang dimiliki :</string>
+    	<string name="B5CR18">18. Dapat membaca dan menulis :</string>
+    	
+    	<!-- Blok 7 -->
+    	<string name="B7R1">1. Apakah rumah tangga ini penerima BLT/SLT?</string>
+    	<string name="B7R2_Kesehatan">2. a. Apakah ada anggota rumah tangga yang mendapatkan pelayanan kesehatan gratis selama 6 bulan terakhir?</string>
+    	<string name="B7R2_Kartu">b. Kartu yang digunakan :</string>
+    	<string name="B7R3_Raskin">3. a. Apakah rt pernah membeli raskin selama 3 bulan terakhir?</string>
+    	<string name="B7R3_Beli">b. Berapa kg raskin yang dibeli?</string>
+    	<string name="B7R3_terakhir">c. Berapa rupiah per kg yang dibayar oleh rumah tangga untuk membeli beras raskin yang terakhir?</string>
+    	<string name="B7R4_TerimaKredit">4. a. Apakah ada anggota rumah tangga yang menerima kredit usaha dalam setahun terakhir?</string>
+    	<string name="B7R4_JenisKredit">b. Jenis kredit yang diterima :</string>
+    	
+    <!-- End -->
+    	
+    	
+   	<!-- Daftar Keterangan -->
+   		<!-- Umum digunakan -->
+   		<string name="Ya">Ya</string>
+   		<string name="Tidak">Tidak</string>
+   	
+   		<!-- Blok 1 --> 	
+    	<string name="B1R9_TidakPengganti">Tidak, RT pengganti</string>
+    	<string name="B1R9_TidakSampelBaru">Tidak,Sampel baru</string>
+    	
+    	<!-- Blok 5B -->
+   		<string name="B5BR11_BCG">a. BCG :</string>
+   		<string name="B5BR11_DPT">b. DPT :</string>
+   		<string name="B5BR11_Polio">c. Polio :</string>
+   		<string name="B5BR11_Campak">d. Campak/Morbili :</string>
+   		<string name="B5BR11_Hepatitis">e. Hepatitis B :</string>
+   		
+   		<!-- Blok 5C -->
+   		<string name="B5CR13_Tidak">Tidak/belum pernah bersekolah</string>
+   		<string name="B5CR13_Masih">Masih bersekolah</string>
+   		<string name="B5CR13_TidakBersekolah">Tidak bersekolah lagi</string>
+    	
+    	
+   	<!-- Daftar Text Button -->	
+    	<!-- Blok 1 -->
+    	<string name="button_Save">Save</string>
+    	<string name="button_Cancel">Cancel</string>
+    
+    
+    
+    
+    
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+	<string-array name= "provinsiUji">
+        <item>--pilih item--</item>
+        <item>Kepulauan Bangka Belitung</item>
+    </string-array>
+    
+    
+    
+</resources>

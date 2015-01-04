@@ -1,0 +1,283 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a8cf45"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:background="#a8cf45"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:textSize="18sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Umur pada saat kawin pertama"
+                android:textColor="#ffffff" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/b5r27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:gravity="center_horizontal"
+                    android:inputType="number" />
+                <TextView
+                    android:text="tahun"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Jumlah tahun dalam ikatan perkawinan"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/b5r28"
+                    android:textColor="#ffffff"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"/>
+                <TextView
+                    android:text="tahun"
+                    android:textColor="#ffffff"
+
+                    android:textSize="18sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#a8cf45"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+
+                android:text="Jumlah anak kandung dilahirkan"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="Lahir hidup"
+                android:textColor="#ffffff"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <EditText
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/b5r29apa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Laki-laki"
+                    android:inputType="number"/>
+                <EditText
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/b5r29api"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Perempuan"
+                    android:inputType="number"/>
+            </LinearLayout>
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="Masih hidup"
+                android:textColor="#ffffff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <EditText
+                    android:id="@+id/b5r29bpa"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Laki-laki"
+                    android:inputType="number"/>
+                <EditText
+                    android:id="@+id/b5r29bpi"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Perempuan"
+                    android:inputType="number"/>
+            </LinearLayout>
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="Sudah meninggal"
+                android:textColor="#ffffff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">>
+                <EditText
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/b5r29cpa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Laki-laki"
+                    android:inputType="number"/>
+                <EditText
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/b5r29cpi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Perempuan"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="#a8cf45">
+            <TextView
+                android:textColor="#ffffff"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Penggunaan / pemakaian alat / cara KB"
+                android:textSize="18sp"
+                android:paddingBottom="5dp"
+                android:gravity="center_horizontal"/>
+            <RadioGroup
+                android:id="@+id/b5r30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/b5r30a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="Sedang menggunakan"/>
+                <RadioButton
+                    android:id="@+id/b5r30b"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak menggunakan lagi"
+                    android:textColor="#ffffff"/>
+                <RadioButton
+                    android:id="@+id/b5r30c"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak pernah menggunakan"
+                    android:textColor="#ffffff"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="#a8cf45">
+            <TextView
+                android:textSize="18sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Alat/ cara KB yang sedang digunakan"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(Jika sedang menggunakan)"
+                android:textColor="#ffffff"
+                android:paddingBottom="10dp"/>
+            <Spinner
+                android:id="@+id/spinner1"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#a8cf45"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"/>
+    </LinearLayout>
+</ScrollView>

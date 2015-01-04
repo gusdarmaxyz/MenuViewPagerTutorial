@@ -1,0 +1,664 @@
+<resources>
+    <string-array name= "provinsiUji">
+        <item>--pilih item--</item>
+        <item>Kepulauan Bangka Belitung</item>
+    </string-array>
+    
+	<!-- berisikan daftar 34 nama-nama provinsi di Indonesia -->
+    <string-array name ="provinsi">
+        <item id = "11">Aceh</item>
+        <item id = "51">Bali</item>
+        <item id = "36">Banten</item>
+        <item id = "17">Bengkulu</item>
+        <item id = "75">Gorontalo</item>
+        <item id = "31">Jakarta</item>
+        <item id = "15">Jambi</item>
+        <item id = "32">Jawa Barat</item>
+        <item id = "33">Jawa Tengah</item>
+        <item id = "35">Jawa Timur</item>
+        <item id = "61">Kalimantan Barat</item>
+        <item id = "63">Kalimantan Selatan</item>
+        <item id = "62">Kalimantan Tengah</item>
+        <item id = "64">Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item id = "19">Kepulauan Bangka Belitung</item>
+        <item id = "21">Kepulauan Riau</item>
+        <item id = "18">Lampung</item>
+        <item id = "81">Maluku</item>
+        <item id = "82">Maluku Utara</item>
+        <item id = "52">Nusa Tenggara Barat</item>
+        <item id = "53">Nusa Tenggara Timur</item>
+        <item id = "94">Papua</item>
+        <item id = "91">Papua Barat</item>
+        <item id = "14">Riau</item>
+        <item id = "76">Sulawesi Barat</item>
+        <item id = "73">Sulawesi Selatan</item>
+        <item id = "72">Sulawesi Tengah</item>
+        <item id = "71">Sulawesi Utara</item>
+        <item id = "13">Sumatera Barat</item>
+        <item id = "16">Sumatera Selatan</item>
+        <item id = "12">Sumatera Utara</item>
+        <item id = "34">Yogyakarta</item>
+    </string-array>
+    
+    <!-- Berisikan daftar kota dan kabupaten yang berada pada Provinsi Bangka Belitung -->
+    <string-array name = "kabupatenBabel">
+        <item>--pilih item--</item>
+        <item class = "kabupaten">Bangka</item>
+        <item class = "kabupaten">Bangka Barat</item>
+        <item class = "kabupaten">Bangka Selatan</item>
+        <item class = "kabupaten">Bangka Tengah</item>
+        <item class = "kabupaten">Belitung</item>
+        <item class = "kabupaten">Belitung Timur</item>
+        <item class = "kota">Pangkal Pinang</item>
+    </string-array>
+    
+    <!-- Berisikan daftar kota dan kabupaten yang berada pada Provinsi Yogyakarta-->
+    <string-array name = "kabupatenYogyakarta">
+        <item class = "kabupaten">Bantul</item>
+        <item class = "kabupaten">Kulon Progo</item>
+        <item class = "kabupaten">Sleman</item>
+        <item class = "kabupaten">Gunung Kidul</item>
+        <item class = "kota">Yogyakarta</item>
+    </string-array>
+    
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Bangka -->
+	<string-array name = "kecamatanBangka">
+	    <item>--pilih item--</item>
+	    <item>Bakam</item>
+	    <item>Belinyu</item>
+	    <item>Mendo Barat</item>
+	    <item>Merawang</item>
+	    <item>Pemali</item>
+	    <item>Puding Besar</item>
+	    <item>Riau Silip</item>
+	    <item>Sungailiat</item>
+	</string-array>
+	
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Bangka Barat-->
+	<string-array name = "kecamatanBangkaBarat">
+	    <item>--pilih item--</item>
+	    <item>Jebus</item>
+	    <item>Kelapa</item>
+	    <item>Muntok</item>
+	    <item>Simpang Teritip</item>
+	    <item>Tempilang</item>
+	</string-array>
+	
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Bangka Selatan -->
+	<string-array name = "kecamatanBangkaSelatan">
+	    <item>--pilih item--</item>
+	    <item>Air Gegas</item>
+	    <item>Lepar Pongok</item>
+	    <item>Payung</item>
+	    <item>Pulau Besar</item>
+	    <item>Simpang Rimba</item>
+	    <item>Toboali</item>
+	    <item>Tukak Sadai</item>
+	</string-array>
+	
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Bangka Tengah-->
+	<string-array name = "kecamatanBangkaTengah">
+	    <item>--pilih item--</item>
+	    <item>Koba</item>
+	    <item>Lubuk Besar</item>
+	    <item>Namang</item>
+	    <item>Pangkalan Baru</item>
+	    <item>Simpang Katis</item>
+	    <item>Sungai Selan</item>
+	</string-array>
+   
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Belitung Timur -->
+	<string-array name = "kecamatanBelitungTimur">
+	    <item>--pilih item--</item>
+	    <item>Dendang</item>
+	    <item>Gantung</item>
+	    <item>Kelapa Kampit</item>
+	    <item>Manggar</item>
+	</string-array>
+	
+	<!-- Berisikan daftar kecamatan yang berada pada Kabupaten Belitung -->
+	<string-array name = "kecamatanBelitung">
+	    <item>--pilih item--</item>
+	    <item>Badau</item>
+	    <item>Membalong</item>
+	    <item>Selat Nasik</item>
+	    <item>Sijuk</item>
+	    <item>Tanjung Pandan</item>
+	</string-array>
+	
+	<!-- Berisikan daftar kecamatan yang berada pada Kota Pangkal Pinang -->
+	<string-array name = "kecamatanPangkalPinang">
+	    <item>--pilih item--</item>
+	    <item>Bukit Intan</item>
+	    <item>Gerunggang</item>
+	    <item>Pangkalbalam</item>
+	    <item>Rangkui</item>
+	    <item>Taman Sari</item>
+	</string-array>
+	
+	
+	    
+										<!-- KABUPATEN BANGKA -->
+	
+	<string-array name = "kelurahanBakam">
+	    <item>--pilih item--</item>
+	    <item>Bakam</item>
+	    <item>Bukit Layang</item>
+	    <item>Dalil</item>
+	    <item>Kapuk</item>
+	    <item>Mabat</item>
+	    <item>Mangka</item>
+	    <item>Maras Senang</item>
+	    <item>Neknang</item>
+	    <item>Tiang Tara</item>
+	</string-array>
+	
+	<string-array name = "kelurahanBelinyu">
+	    <item>--pilih item--</item>
+	    <item>Air Jukung</item>
+	    <item>Bintet</item>
+	    <item>Bukit Ketok</item>
+	    <item>Gunung Muda</item>
+	    <item>Gunung Pelawan</item>
+	    <item>Kuto Panji</item>
+	    <item>Lumut</item>
+	    <item>Riding Panjang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanMendoBarat">
+	    <item>--pilih item--</item>
+	    <item>Air Buluh</item>
+	    <item>Air Duren</item>
+	    <item>Cengkong Abang</item>
+	    <item>Kace</item>
+	    <item>Kemuja</item>
+	    <item>Kota Kapur</item>
+	    <item>Labuh Air Pandan</item>
+	    <item>Mendo</item>
+	    <item>Payabenua</item>
+	    <item>Penagan</item>
+	    <item>Petaling</item>
+	    <item>Rukam</item>
+	    <item>Zed</item>
+	</string-array>
+	
+	<string-array name = "kelurahanMerawang">
+	    <item>--pilih item--</item>
+	    <item>Air Anyir</item>
+	    <item>Balun Ijuk</item>
+	    <item>Baturusa</item>
+	    <item>Dwi Makmur</item>
+	    <item>Jada Bahrin</item>
+	    <item>Jurung</item>
+	    <item>Kimak</item>
+	    <item>Merawang</item>
+	    <item>Pagarawan</item>
+	    <item>Riding Panjang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanPemali">
+	    <item>--pilih item--</item>
+	    <item>Penyamun</item>
+	    <item>Sempan</item>
+	    <item>Air Duren</item>
+	    <item>Air Ruai</item>
+	    <item>Karya Makmur</item>
+	    <item>Pemali</item>
+	</string-array>
+    
+	<string-array name = "kelurahanPudingBesar">
+	    <item>--pilih item--</item>
+	    <item>Kayu Besi</item>
+	    <item>Kota Waringin</item>
+	    <item>Labu</item>
+	    <item>Nibung</item>
+	    <item>Pudingbesar</item>
+	    <item>Saing</item>
+	    <item>Tanah Bawah</item>
+	</string-array>
+	
+	<string-array name = "kelurahanRiauSilip">
+	    <item>--pilih item--</item>
+	    <item>Banyu Asin</item>
+	    <item>Berbura</item>
+	    <item>Cit</item>
+	    <item>Deniang</item>
+	    <item>Mapur</item>
+	    <item>Pangkal Niur</item>
+	    <item>Pugul</item>
+	    <item>Riau</item>
+	    <item>Silip</item>
+	</string-array>
+	
+	<string-array name = "kelurahanSungaiLiat">
+	    <item>--pilih item--</item>
+	    <item>Kenanga</item>
+	    <item>Rebo</item>
+	    <item>Sungailiat</item>
+	    <item>Sinar Baru</item>
+	    <item>Kudai</item>
+	    <item>Srimenanti</item>
+	    <item>Parit Padang</item>
+	</string-array>
+	
+									<!-- KABUPATEN BANGKA BARAT-->
+									
+	<string-array name = "kelurahanJebus">
+	    <item>--pilih item--</item>
+	    <item>Air Gantang</item>
+	    <item>Bakit</item>
+	    <item>Cupat</item>
+	    <item>Jebus</item>
+	    <item>Kapit</item>
+	    <item>Kelabat</item>
+	    <item>Ketap</item>
+	    <item>Limbung</item>
+	    <item>Puput</item>
+	    <item>Ranggi Asam</item>
+	    <item>Rukam</item>
+	    <item>Sekar Biru</item>
+	    <item>Semulut</item>
+	    <item>Sungai Buluh</item>
+	    <item>Telak</item>
+	    <item>Teluk Limau</item>
+	    <item>Tumbak Petar</item>
+	</string-array>
+	
+	<string-array name = "kelurahanKelapa">
+	    <item>--pilih item--</item>
+	    <item>Air Bulin</item>
+	    <item>Beruas</item>
+	    <item>Dendang</item>
+	    <item>Kacung</item>
+	    <item>Kayu Arang</item>
+	    <item>Kelapa</item>
+	    <item>Mancung</item>
+	    <item>Pusuk</item>
+	    <item>Sinar Sari</item>
+	    <item>Tebing</item>
+	    <item>Terentang</item>
+	    <item>Tugang</item>
+	    <item>Tuik</item>
+	</string-array>
+	
+	<string-array name = "kelurahanMuntok">
+	    <item>--pilih item--</item>
+	    <item>Tanjung</item>
+	    <item>Sungai Baru</item>
+	    <item>Sungai Daeng</item>
+	    <item>Air Belo</item>
+	    <item>Air Limau</item>
+	    <item>Air Putih</item>
+	    <item>Belolaut</item>
+	</string-array>
+	
+	<string-array name = "kelurahanSimpangTeritip">
+	    <item>--pilih item--</item>
+	    <item>Air Nyatoh</item>
+	    <item>Berang</item>
+	    <item>Ibul</item>
+	    <item>Kundi</item>
+	    <item>Mayang</item>
+	    <item>Pangek</item>
+	    <item>Pelangas</item>
+	    <item>Peradong</item>
+	    <item>Rambat</item>
+	    <item>Simpang Gung</item>
+	    <item>Simpang Tiga</item>
+	</string-array>
+	
+	<string-array name = "kelurahanTempilang">
+	    <item>--pilih item--</item>
+	    <item>Air Lintang</item>
+	    <item>Benteng Kota</item>
+	    <item>Buyan Kelumbi</item>
+	    <item>Penyampak</item>
+	    <item>Sangku</item>
+	    <item>Simpang Yul</item>
+	    <item>Sinar Surya</item>
+	    <item>Tanjungniur</item>
+	    <item>Tempilang</item>
+	</string-array>
+	
+										<!-- KABUPATEN BANGKA SELATAN-->
+	
+	<string-array name = "kelurahanAirGegas">
+	    <item>--pilih item--</item>
+	    <item>Air Bara</item>
+	    <item>Air Gegas</item>
+	    <item>Bencah</item>
+	    <item>Delas</item>
+	    <item>Nangka</item>
+	    <item>Nyelanding</item>
+	    <item>Pergam</item>
+	    <item>Ranggas</item>
+	    <item>Sidoharjo</item>
+	    <item>Tepus</item>
+	</string-array>
+	
+	<string-array name = "kelurahanLeparPongok">
+	    <item>--pilih item--</item>
+	    <item>Kumbung</item>
+	    <item>Penutuk</item>
+	    <item>Pongok</item>
+	    <item>Tanjung Labu</item>
+	    <item>Tanjung Sangkar</item>
+	</string-array>
+	
+	<string-array name = "kelurahanPayung">
+	    <item>--pilih item--</item>
+	    <item>Bedengung</item>
+	    <item>Irat</item>
+	    <item>Malik</item>
+	    <item>Nadung</item>
+	    <item>Paku</item>
+	    <item>Pangkalbuluh</item>
+	    <item>Payung</item>
+	    <item>Ranggung</item>
+	    <item>Sengir</item>
+	</string-array>
+	
+	<string-array name = "kelurahanPulauBesar">
+	    <item>--pilih item--</item>
+	    <item>Batu Betumpang</item>
+	    <item>Fajar Indah</item>
+	    <item>Panca Tunggal</item>
+	    <item>Sukajaya</item>
+	    <item>Sumber Jaya Permai</item>
+	</string-array>
+	
+	<string-array name = "kelurahanSimpangRimba">
+	    <item>--pilih item--</item>
+	    <item>Bangka Kota</item>
+	    <item>Gudang</item>
+	    <item>Jelutung II</item>
+	    <item>Rajik</item>
+	    <item>Sebagin</item>
+	    <item>Simpang Rimba</item>
+	</string-array>
+	
+	<string-array name ="kelurahanToboali">
+	    <item>--pilih item--</item>
+	    <item>Bikang</item>
+	    <item>Gadung</item>
+	    <item>Jeriji</item>
+	    <item>Kaposang</item>
+	    <item>Kepoh</item>
+	    <item>Rias</item>
+	    <item>Rindik</item>
+	    <item>Serdang</item>
+	    <item>Tanjung</item>
+	    <item>Teladan</item>
+	    <item>Toboali</item>
+	</string-array>
+	
+	<string-array name = "kelurahanTukakSadai">
+	    <item>--pilih item--</item>
+	    <item>Bukit Terap</item>
+	    <item>Pasir Putih</item>
+	    <item>Sadai</item>
+	    <item>Tiram</item>
+	    <item>Tukak</item>
+	</string-array>
+	
+											<!-- KABUPATEN BANGKA TENGAH-->
+											
+	<string-array name = "kelurahanKoba">
+	    <item>--pilih item--</item>
+	    <item>Arung Dalam</item>
+	    <item>Berok</item>
+	    <item>Guntung</item>
+	    <item>Koba</item>
+	    <item>Kurau</item>
+	    <item>Kurau Barat</item>
+	    <item>Kurau Timur</item>
+	    <item>Nibung</item>
+	    <item>Padang Mulya</item>
+	    <item>Penyak</item>
+	    <item>Simpang Perlang</item>
+	    <item>Terentang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanLubukBesar">
+	    <item>--pilih item--</item>
+	    <item>Batu Beriga</item>
+	    <item>Kulur</item>
+	    <item>Kulur Hilir</item>
+	    <item>Lubuk Besar</item>
+	    <item>Lubuk Lingkuk</item>
+	    <item>Lubuk Pabrik</item>
+	    <item>Perlang</item>
+	    <item>Trubus</item>
+	</string-array>
+	
+	<string-array name = "kelurahanNamang">
+	    <item>--pilih item--</item>
+	    <item>Baskara Bakti</item>
+	    <item>Bukit Kijang</item>
+	    <item>Belilik</item>
+	    <item>Cambai</item>
+	    <item>Jelutung</item>
+	    <item>Kayu Besi</item>
+	    <item>Namang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanPangkalanBaru">
+	    <item>--pilih item--</item>
+	    <item>Airmesu</item>
+	    <item>Batu</item>
+	    <item>Beluluk</item>
+	    <item>Benteng</item>
+	    <item>Dul</item>
+	    <item>Jeruk</item>
+	    <item>Mangkol</item>
+	    <item>Padang Baru</item>
+	    <item>Pelindang</item>
+	    <item>Tanjung Gunung</item>
+	</string-array>
+	
+	<string-array name = "kelurahanSimpangKatis">
+	    <item>--pilih item--</item>
+	    <item>Beruas</item>
+	    <item>Celuak</item>
+	    <item>Katis</item>
+	    <item>Pasir Garam</item>
+	    <item>Pinang Sebatang</item>
+	    <item>Puput</item>
+	    <item>Simpang Katis</item>
+	    <item>Sungkap</item>
+	    <item>Terak</item>
+	    <item>Teru</item>
+	</string-array>
+	
+	<string-array name = "kelurahanSelan">
+	    <item>--pilih item--</item>
+	    <item>Kemingking</item>
+	    <item>Kerakas</item>
+	    <item>Kerantai</item>
+	    <item>Keretak</item>
+	    <item>Lampur</item>
+	    <item>Munggu</item>
+	    <item>Romadhon</item>
+	    <item>Sarangmandi</item>
+	    <item>Sungai Selan</item>
+	    <item>Sungai Selan Atas</item>
+	    <item>Tanjung Pura</item>
+	</string-array>
+	
+										<!-- KABUPATEN BELITUNG-->
+										
+	<string-array name = "kelurahanBadau">
+	    <item>--pilih item--</item>
+	    <item>Air Batu</item>
+	    <item>Badau</item>
+	    <item>Cerucuk</item>
+	    <item>Kacang Botor</item>
+	    <item>Pegantungan</item>
+	    <item>Sungai Samak</item>
+	</string-array>
+	
+	<string-array name = "kelurahanMembalong">
+	    <item>--pilih item--</item>
+	    <item>Bantan</item>
+	    <item>Gunung Riting</item>
+	    <item>Kembiri</item>
+	    <item>Lassar</item>
+	    <item>Membalong</item>
+	    <item>Mentigi</item>
+	    <item>Padang Kandis</item>
+	    <item>Perpat</item>
+	    <item>Pulau Seliu</item>
+	    <item>Pulau Sumedang</item>
+	    <item>Simpang Rusa</item>
+	    <item>Tanjung Rusa</item>
+	</string-array>
+	
+	<string-array name = "kelurahanNasik">
+	    <item>--pilih item--</item>
+		<item>Petaling</item>
+		<item>Pulau Gresik</item>
+		<item>Selat Nasik</item>
+		<item>Suak Gual</item>    
+	</string-array>
+	
+	<string-array name = "kelurahanSijuk">
+	    <item>--pilih item--</item>
+	    <item>Air Selumar</item>
+	    <item>Air Seru</item>
+	    <item>Batu Itam</item>
+	    <item>Keciput</item>
+	    <item>Sijuk</item>
+	    <item>Sungai Padang</item>
+	    <item>Tanjung Binga</item>
+	    <item>Terong</item>
+	</string-array>
+	
+	<string-array name = "kelurahanTanjungPandang">
+	    <item>--pilih item--</item>
+	    <item>Air Merbau</item>
+	    <item>Buluh Tumbang</item>
+	    <item>Dukong</item>
+	    <item>Kota Tanjung Pandang</item>
+	    <item>Lesung Batang</item>
+	    <item>Parit</item>
+	    <item>Tanjung Pendam</item>
+	    <item>Pangkal Lalang</item>
+	    <item>Perawas</item>
+	    <item>Paal Satu</item>
+	    <item>Air Saga</item>
+	    <item>Juru Seberang</item>
+	</string-array>
+	
+											<!-- KABUPATEN BELITUNG TIMUR-->
+											
+	<string-array name = "kelurahanDendang">
+	    <item>--pilih item--</item>
+	    <item>Balok</item>
+	    <item>Dendang</item>
+	    <item>Jangkang</item>
+	    <item>Nyuruk</item>
+	    <item>Simpang Pesak</item>
+	    <item>Tanjung Batu Itam</item>
+	    <item>Tanjung Kelumpang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanGantung">
+	    <item>--pilih item--</item>
+	    <item>Gantung</item>
+	    <item>Jangkar Asam</item>
+	    <item>Lilangan</item>
+	    <item>Lintang</item>
+	    <item>Renggiang</item>
+	    <item>Selingsing</item>
+	    <item>Simpang Tiga</item>
+	</string-array>
+	
+	<string-array name = "kelurahanKelapaKampit">
+	    <item>--pilih item--</item>
+	    <item>Air Kelik</item>
+	    <item>Buding</item>
+	    <item>Cendil</item>
+	    <item>Mayang</item>
+	    <item>Mentawak</item>
+	    <item>Pembaharuan</item>
+	    <item>Senyubuk</item>
+	</string-array>
+	
+	<string-array name = "kelurahanManggar">
+	    <item>--pilih item--</item>
+	    <item>Buku Limau</item>
+	    <item>Lalang</item>
+	    <item>Lalang Jaya</item>
+	    <item>Baru</item>
+	    <item>Kurnia Jaya</item>
+	    <item>Sukamandi</item>
+	    <item>Mengkubang</item>
+	    <item>Mempaya</item>
+	    <item>Padang</item>
+	    <item>Canggu</item>
+	    <item>Kelubi</item>
+	    <item>Lidun</item>
+	    <item>Penyok</item>
+	    <item>Rasau</item>
+	</string-array>
+	
+												<!-- KOTA PANGKAL PINANG-->
+	
+	<string-array name = "kelurahanBukitIntan">
+	    <item>--pilih item--</item>
+	    <item>Bukit Intan</item>
+	    <item>Sriwijaya</item>
+	    <item>Bukit Besar</item>
+	    <item>Semabung Baru</item>
+	    <item>Semabung Lama</item>
+	    <item>Bacang</item>
+	    <item>Air Itam</item>
+	</string-array>
+	
+	<string-array name = "kelurahanGerunggang">
+	    <item>--pilih item--</item>
+	    <item>Bukit Merapin</item>
+	    <item>Bukit Sari</item>
+	    <item>Kejaksaan</item>
+	    <item>Taman Bunga</item>
+	    <item>Tuatunu Indah</item>
+	    <item>Kacang Pedang</item>
+	</string-array>
+	
+	<string-array name = "kelurahanPangkalBalam">
+	    <item>--pilih item--</item>
+	    <item>Air Salemba</item>
+	    <item>Ketapang</item>
+	    <item>Rejosari</item>
+	    <item>Ampui</item>
+	    <item>Lontong Pancur</item>
+	    <item>Pasir Garam</item>
+	    <item>Gabek II</item>
+	    <item>Selindung Baru</item>
+	    <item>Selindung Lama</item>
+	    <item>Gabek I</item>
+	</string-array>
+	
+	<string-array name = "kelurahanRangkui">
+	    <item>--pilih item--</item>
+	    <item>Pasar Padi</item>
+	    <item>Masjid Jamik</item>
+	    <item>Pintu Air</item>
+	    <item>Keramat</item>
+	    <item>Asam</item>
+	    <item>Melintang</item>
+	    <item>Parit Lalang</item>
+	    <item>Bintang</item>
+	    <item>Pasir Putih</item>
+	</string-array>
+	
+	<string-array name = "kelurahanTamanSari">
+	    <item>--pilih item--</item>
+	    <item>Batin Tikal</item>
+	    <item>Opas Indah</item>
+	    <item>Rawa Bangun</item>
+	    <item>Gedung Nasional</item>
+	</string-array>
+</resources>
+	

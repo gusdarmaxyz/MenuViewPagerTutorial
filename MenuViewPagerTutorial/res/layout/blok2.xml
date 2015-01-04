@@ -1,0 +1,207 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewBlok1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#a8cf45" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_B2R1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B2R1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+             <EditText 
+                 android:id="@+id/edittext_B2R1"
+                 android:layout_width="270dp"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:layout_gravity="center_horizontal"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="#ffffff"
+                 android:inputType="textCapWords|textNoSuggestions"
+                 android:background="#93bc2b">
+                 <requestFocus />
+           	 </EditText>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <TextView
+                android:id="@+id/textview_B2R2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/B2R2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+                    android:id="@+id/textview_B2R2_0Tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B2R2_0Tahun"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                	android:textColor="#ffffff"
+                	android:layout_marginLeft="10dp"
+                	android:layout_marginTop="30dp" />
+                
+                <EditText 
+                    android:id="@+id/edittext_B2R2_0Tahun"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp" 
+                    android:layout_marginRight="10dp"
+                    android:layout_alignBaseline="@id/textview_B2R2_0Tahun"
+                    android:background="#93bc2b"
+                    android:layout_alignParentRight="true"
+                    android:inputType="number"/>
+                
+                <TextView 
+                    android:id="@+id/textview_B2R2_5Tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B2R2_5Tahun"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                	android:textColor="#ffffff"
+                	android:layout_marginLeft="10dp"
+                	android:layout_marginTop="30dp"
+                	android:layout_below="@id/textview_B2R2_0Tahun" />
+                
+                <EditText 
+                    android:id="@+id/edittext_B2R2_5Tahun"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp" 
+                    android:layout_marginRight="10dp"
+                    android:layout_alignBaseline="@id/textview_B2R2_5Tahun"
+                    android:background="#93bc2b"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/edittext_B2R2_0Tahun"
+                    android:inputType="number"/>
+                
+                <TextView 
+                    android:id="@+id/textview_B2R2_10Tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B2R2_10Tahun"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                	android:textColor="#ffffff"
+                	android:layout_marginLeft="10dp"
+                	android:layout_marginTop="30dp"
+                	android:layout_below="@id/textview_B2R2_5Tahun" />
+                
+                <EditText 
+                    android:id="@+id/edittext_B2R2_10Tahun"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp" 
+                    android:layout_marginRight="10dp"
+                    android:layout_alignBaseline="@id/textview_B2R2_10Tahun"
+                    android:background="#93bc2b"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/edittext_B2R2_5Tahun"
+                    android:inputType="number"/>
+                
+                <TextView 
+                    android:id="@+id/textview_B2R2_Jumlah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/B2R2_Jumlah"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                	android:textColor="#ffffff"
+                	android:layout_marginLeft="10dp"
+                	android:layout_marginTop="30dp"
+                	android:layout_below="@id/textview_B2R2_10Tahun" />
+                
+                <EditText 
+                    android:id="@+id/edittext_B2R2_Jumlah"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp" 
+                    android:layout_marginRight="10dp"
+                    android:layout_alignBaseline="@id/textview_B2R2_Jumlah"
+                    android:background="#93bc2b"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/edittext_B2R2_10Tahun"
+                    android:inputType="number"
+                    android:enabled="false"/>
+                
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_SaveBlok2"
+               	android:background="@drawable/thome_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:text="@string/button_Save" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.68"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_CancelBlok2"
+                android:background="@drawable/thome_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:text="@string/button_Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

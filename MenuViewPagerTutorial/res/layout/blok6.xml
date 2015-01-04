@@ -1,0 +1,734 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_1_Layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1."
+                    android:id="@+id/B6_R_1_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_1_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status penguasaan bangunan tempat tinggal yang ditempati :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_1_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_2_Layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2."
+                    android:id="@+id/B6_R_2_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_2_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis atap terluas :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_2_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_3_Layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3."
+                    android:id="@+id/B6_R_3_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_3_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis dinding terluas :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_3_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_4_Layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4."
+                    android:id="@+id/B6_R_4_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_4_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis lantai terluas :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_4_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_5_Layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5."
+                    android:id="@+id/B6_R_5_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_5_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a.  Luas Lantai : (meter persegi)"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/B6_R_5_EditText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="#93bc2b"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:ems="6"
+                android:inputType="number"
+                android:layout_gravity="center_horizontal"
+                android:numeric="integer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_6a_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6."
+                    android:id="@+id/B6_R_6a_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_6a_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. Sumber air minum :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_6a_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_6b_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   "
+                    android:id="@+id/B6_R_6b_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_6b_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b. Jarak ke tempat penampungan \n    tinja/kotoran :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_6b_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_7_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7."
+                    android:id="@+id/B6_R_7_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_7_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penggunaan fasilitas air minum :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_7_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_8_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8."
+                    android:id="@+id/B6_R_8_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_8_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cara memperoleh air minum :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_8_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_9a_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9."
+                    android:id="@+id/B6_R_9a_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_9a_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. Penggunaan fasilitas tempat buang \n    air besar : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_9a_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_9b_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   "
+                    android:id="@+id/B6_R_9b_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_9b_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b. Jenis kloset :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_9b_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_9c_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   "
+                    android:id="@+id/B6_R_9c_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_9c_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c. Tempat pembuangan akhir tinja :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_9c_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a8cf45"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/B6_R_10_Layout" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10."
+                    android:id="@+id/B6_R_10_Teks_No"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/B6_R_10_Teks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sumber penerangan :"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/B6_R_10_Spinner"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:background="#93bc2b"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/blok6_save"
+               	android:background="@drawable/thome_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:text="Save" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.68"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/blok6_cancel"
+                android:background="@drawable/thome_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:text="Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
